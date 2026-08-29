@@ -8,8 +8,12 @@ Objetivo    : Verificar se uma matriz 9x9 preenchida é solução válida de
 Sudoku (cada linha, coluna e quadrante 3x3 deve conter os números de 1 a 9).
 Dificuldade : Sem dificuldades significativas — a lógica de checagem de linhas,
 colunas e quadrantes 3x3 foi direta de implementar.
-Uso de IA   : Usei o Claude Code para revisar o código e apontar possíveis
-bugs antes da entrega.
+Uso de IA   : Usei o Claude Code para revisar o código em busca de bugs. Ele
+apontou um printf de prompt dentro de main() que gerava saída extra e daria
+Wrong Answer no juiz (removi) e observou que os comentários dos blocos de
+checagem de linha/coluna estavam trocados entre si (sem efeito no resultado,
+só corrigi a leitura). Também ajudou a montar o cabeçalho de metadados do
+arquivo.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
