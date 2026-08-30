@@ -1,19 +1,19 @@
-# AED_1 — Data Structures & Algorithms coursework
+# AED_1: Data Structures & Algorithms coursework
 
 First data-structures course (Algoritmos e Estruturas de Dados I), UNIFESP.
 Everything here is in C.
 
 ## Contents
 
-- **`Comparação de algoritmos de ordenação/`** — a small benchmark that runs
+- **`Comparação de algoritmos de ordenação/`**: a small benchmark that runs
   Insertion Sort, Merge Sort and Quick Sort over the same random arrays and
   times each one (`clock()`). `main.c` times a single user-given size;
   `gerar_dados.c` sweeps sizes from 20k to 400k (3 runs averaged) and writes
   `dados.csv` for plotting.
-- **`ListaEncadeada.c`** — singly linked list implementation.
-- **`sudoku.c`**, **`mdc.c`**, **`tempo.c`** — smaller exercises (backtracking
+- **`ListaEncadeada.c`**: singly linked list implementation.
+- **`sudoku.c`**, **`mdc.c`**, **`tempo.c`**: smaller exercises (backtracking
   Sudoku solver, GCD, time arithmetic).
-- **`bee*.c`** — solutions to [beecrowd](https://www.beecrowd.com.br/)
+- **`bee*.c`**: solutions to [beecrowd](https://www.beecrowd.com.br/)
   (ex-URI Online Judge) problems, one file per problem number.
 
 ## Building
